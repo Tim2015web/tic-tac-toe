@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding-top: 25px;
+  background-color: antiquewhite;
+}
+
+.mainForm {
+  display: block;
+  width: 330px;
+  margin: 0 auto;
+}
+
+.mainForm section {
+  display: block;
+  background-color: aliceblue;
+  border: solid white 1px;
+  box-shadow: 4px 4px 4px grey;
+  padding-bottom: 12px;
+}
+
+.gameFieldWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4px 0 10px 0;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  margin: 3px;
+}
+
+.x {
+color: royalblue;
+}
+
+.o {
+color: brown;
+}
+
+.playAgainBtn {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: royalblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
