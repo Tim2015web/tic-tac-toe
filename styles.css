@@ -53,3 +53,12 @@ color: brown;
   color: white;
   font-weight: bold;
 }
+
+p {
+  text-align: center;
+}
+
+p a{
+  text-align: center;
+  color: royalblue;
+}
